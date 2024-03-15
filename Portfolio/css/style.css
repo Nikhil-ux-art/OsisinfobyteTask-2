@@ -1,0 +1,176 @@
+@import 'utilities.css';
+root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-font-smothing: antialised;
+}
+
+header{
+    background-color: black;
+    clip-path:polygon(0 0,100% 0,100% 100%,70% 93%,0 100%);
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform:uppercase;
+    transition:all .3s ease;
+}
+header nav .left a:hover{
+    color: skyblue;
+}
+
+body{
+    font-family:'poppins' ,sans-serif;
+}
+header nav {
+    padding: 2rem 0;
+}
+header nev .branding{
+    margin-right: 3rem;
+}
+.hero{
+   padding: 3rem 0;
+}
+
+.hero .left img{
+   width:400px;
+}
+.hero .right{
+    color: white;
+}
+.hero .right h6{
+    font-size:1.6rem;
+    color:skyblue;
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size:4rem;
+    font-weight:100;
+    line-height:1.2;
+    margin-bottom:2rem;
+}
+.hero .right h1 span{
+    color:skyblue;
+}
+.hero .right p{
+    line-height:1.9;
+    margin-bottom:2rem;
+}
+.hero .right {
+    margin-top:-7rem;
+}
+
+section{
+    padding:6rem 0;
+}
+section.about .about-me-img{
+    height: 450px;
+}
+section.about h1{
+    margin-bottom:1rem;
+    font-size:1.6rem;
+    font-weight:400;
+}
+section.about h1 span{
+    color: skyblue;
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color:gray;
+    line-height: 1.9;
+    margin-bottom:2rem;
+}
+
+section .about.social{
+    display:flex;
+}
+section.about.social a{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height:35px;
+    border-radius:50%;
+    margin-right:0.5rem;
+    transition: all .3s ease;
+}
+section.about .social a:hover{
+    background: skyblue;
+}
+section.about .social a img{
+    width: 10%;
+    height:10%;
+    padding:0.5rem;
+}
+ .section-heading{
+    color:black;
+    text-align:center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+ }
+ .section-heading +p{
+    color:white;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
